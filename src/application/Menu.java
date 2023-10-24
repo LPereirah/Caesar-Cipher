@@ -14,14 +14,14 @@ public class Menu {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
+        System.out.println("       Menu");
+        System.out.println("-------------------");
         System.out.print("Enter with the word: ");
         word = input.nextLine();
         word = word.toLowerCase();
         System.out.println("-------------------");
 
         Cipher.toCrypto();
-
-
 
     }
 

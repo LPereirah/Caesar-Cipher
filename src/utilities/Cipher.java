@@ -33,7 +33,8 @@ public class Cipher {
             }
 
         }
+        System.out.println();
+        Loop.toLoop();
     }
-
 
 }
